@@ -27,7 +27,32 @@ function About() {
                         [Fill in Details...]
                     </p>
                 </div>
+
+                {/*Currently Learning*/}
+                <div className="mb-8">
+                    <h3 className="text-2xl font-semibold mb-3">
+                        Currently
+                    </h3>
+
+                    <ul className="list-disc list-inside text-lg space-y-2">
+                        <li>Skill 1</li>
+                        <li>Skill 2</li>
+                        <li>Skill 3</li>
+                    </ul>
+                </div>
+
+                {/*Career Direction*/}
+                <div className="mb-8">
+                    <h3 className="text-2xl font-semibold mb-3">
+                        Where I am going
+                    </h3>
+
+                    <p className="text-lg leading-relaxed">
+                        [Fill in details...]
+                    </p>
+                </div>
             </div>
         </section>
     );
 }
+export default About;
