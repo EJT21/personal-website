@@ -1,9 +1,10 @@
 const skills = {
     Languages: ["C#, Python, Javascript, SQL"],
     Backend: ["ASP.NET Core, Web API, Entity Framework Core, Node.js"],
-    Frontend: ["React, MVC/Razor, Javascript, HTML / CSS"],
+    Frontend: ["React, MVC/Razor, HTML / CSS"],
     SQL: ["MS SQL Server"],
-    Tools: ["GitHub, Azure Devops, Azure Pipelines, IIS"]
+    Tools: ["GitHub, Azure Devops, Azure Pipelines, IIS"],
+    AI: ["GitHub Co-pilot, Claude, Codex"]
 };
 
 function Skills() {
@@ -12,15 +13,11 @@ function Skills() {
             <div className="mx-auto max-w-6xl">
                 {/*Heading*/}
                 <div className="mb-12">
-                    <p className="mb-2 text-sm font-medium uppercase tracking-widest text-gray-500">
+                    <h3 className="text-2xl  font-semibold mb-3">
                         Skills
-                    </p>
+                    </h3>
 
-                    <p className="text-4xl font-bold tracking-tight sm:text-5xl">
-                        Tech Stack
-                    </p>
-
-                    <p className="mt-4 max-w-2xl text-lg text-gray-600">
+                    <p className="mx-auto mt-4 text-center text-lg text-gray-600">
                         Technologies and tools I use to build web applications, APIs, automation, and data driven software.
                     </p>
                     {/*Skill Categories*/}
@@ -55,7 +52,7 @@ function Skills() {
                     </div>
                 </div>
             </div>
-        </section>
+        </section >
     );
 }
 export default Skills;

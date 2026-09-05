@@ -26,7 +26,7 @@ function About() {
                         <br />
                         <p>I'm also someone who enjoys continuously learning. Whether I'm exploring a new programming language, framework, or technology, I like understanding not just how something works, but why it works. This is one of the things that originally drew me to computer science and continues to keep me interested in the field.</p>
                         <br />
-                        <p>Outside of technology, I enjoy staying active, learning music, exploring new places and restaurants, and spending time with the people close to me. I like having a balance between working on things that challenge me intellectually and activities that let me step away from a computer.</p>
+                        <p>Outside of technology, I enjoy staying active, learning spanish, exploring new places and restaurants, and spending time with the people close to me. I like having a balance between working on things that challenge me intellectually and activities that let me step away from a computer.</p>
 
                     </p>
                 </div>
