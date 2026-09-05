@@ -9,7 +9,7 @@ const skills = {
 
 function Skills() {
     return (
-        <section id="skills" className="px-6 py-24">
+        <section id="skills" className="bg-gray-100 px-6 py-24">
             <div className="mx-auto max-w-6xl">
                 {/*Heading*/}
                 <div className="mb-12">

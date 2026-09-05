@@ -4,7 +4,7 @@ import emailIcon from "../assets/email.svg";
 
 function Home() {
     return (
-        <section className="flex items-start justify-center px-10 pt-10 pb-20">
+        <section className="flex items-start justify-center bg-gray-100 px-10 pt-10 pb-20">
             <div className="w-full max-w-3xl text-center">
 
                 <h1>Erick Thompson</h1>
