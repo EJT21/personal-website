@@ -5,20 +5,17 @@ import emailIcon from "../assets/email.svg";
 function Home() {
     return (
         <section className="flex items-start justify-center bg-gray-100 px-10 pt-10 pb-20">
-            <div className="w-full max-w-3xl text-center">
+            <div className="w-full max-w-3xl">
 
-                <h1>Erick Thompson</h1>
-                <h2>Software Developer</h2>
+                <h1 className="mb-4 text-center">Erick Thompson</h1>
+                <h2 className="text-center">Software Developer</h2>
 
-                <p>
+                <p className="text-lg">
                     I’m a software developer who enjoys turning tricky business problems into
                     simple, reliable web applications. I work primarily with .NET, C#, ASP.NET MVC,
                     Entity Framework Core, React, and TypeScript.
-                </p>
-
-                <p>
                     Whether I’m building an internal tool or automating a tedious workflow, I care about
-                    writing clean, maintainable code that makes people’s work a little easier.
+                    writing clean, maintainable code that makes people’s work a little easier :)
                 </p>
 
                 <div className="mt-6 flex justify-center gap-4">

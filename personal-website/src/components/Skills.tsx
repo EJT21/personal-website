@@ -31,18 +31,18 @@ function Skills() {
             <div className="mx-auto max-w-6xl">
                 {/*Heading*/}
                 <div className="mb-12">
-                    <h3 className="text-2xl  font-semibold mb-3">
+                    <h3 className="text-2xl text-center font-semibold mb-3">
                         Skills
                     </h3>
 
-                    <p className="mx-auto mt-4 pb-4 text-center text-lg text-gray-600">
+                    <p className="mx-auto mt-4 pb-4 text-center text-lg">
                         Technologies and tools I use to build web applications, APIs, automation, and data driven software.
                     </p>
                     {/*Skill Categories*/}
                     <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                         {skills.map(({ category, technologies }) => (
                             <div key={category} className="flex h-64 flex-col rounded-2xl border border-gray-200 bg-white p-6 text-left shadow-sm">
-                                <h3 className="mb-4 text-lg text-center font-semibold text-gray-800">
+                                <h3 className="mb-4 text-lg text-center font-semibold">
                                     {category}
                                 </h3>
 
@@ -56,12 +56,10 @@ function Skills() {
                                             px-3 py-2
                                             text-base font-medium
                                             text-center
-                                            text-gray-700
                                             leading-tight
                                             transition
                                             hover:border-gray-400
                                             hover:bg-gray-100
-                                            hover:text-gray-900
                                             ">
                                             {technology}
                                         </span>

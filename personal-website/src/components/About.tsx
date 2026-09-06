@@ -2,31 +2,31 @@ function About() {
     return (
         <section id="about" className="min-h-screen bg-gray-100 px-10 pt-10 pb-20">
             <div className="max-w-4xl mx-auto text-left">
-                <h2 className="text-4xl text-center font-bold mb-8">
+                <h2 className="text-center mb-8">
                     About Me
                 </h2>
 
                 {/*How I got into programming*/}
                 <div className="mb-8">
-                    <h3 className="text-2xl text-center font semibold mb-3">
+                    <h2 className="text-center mb-3">
                         My Background
-                    </h3>
+                    </h2>
 
-                    <p>...</p>
+                    <p className="text-lg">...</p>
                 </div>
 
                 {/*What I enjoy working on*/}
                 <div className="mb-8">
-                    <h3 className="text-2xl text-center font semibold mb-3">
+                    <h3 className="text-2xl text-center font-semibold mb-3">
                         What I Enjoy
                     </h3>
 
                     <p className="text-lg leading-relaxed">
-                        <p>I enjoy building things, solving problems, and learning how things work. One of my favorite parts of software development is taking an idea that starts as a concept and turning it into something real that people can interact with.</p>
+                        <p className="text-lg">I enjoy building things, solving problems, and learning how things work. One of my favorite parts of software development is taking an idea that starts as a concept and turning it into something real that people can interact with.</p>
                         <br />
-                        <p>I'm also someone who enjoys continuously learning. Whether I'm exploring a new programming language, framework, or technology, I like understanding not just how something works, but why it works. This is one of the things that originally drew me to computer science and continues to keep me interested in the field.</p>
+                        <p className="text-lg">I'm also someone who enjoys continuously learning. Whether I'm exploring a new programming language, framework, or technology, I like understanding not just how something works, but why it works. This is one of the things that originally drew me to computer science and continues to keep me interested in the field.</p>
                         <br />
-                        <p>Outside of technology, I enjoy staying active, learning spanish, exploring new places and restaurants, and spending time with the people close to me. I like having a balance between working on things that challenge me intellectually and activities that let me step away from a computer.</p>
+                        <p className="text-lg">Outside of technology, I enjoy staying active, learning spanish, exploring new places and restaurants, and spending time with the people close to me. I like having a balance between working on things that challenge me intellectually and activities that let me step away from a computer.</p>
 
                     </p>
                 </div>
