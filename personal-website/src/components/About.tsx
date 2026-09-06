@@ -1,58 +1,55 @@
 function About() {
     return (
-        <section id="about" className="min-h-screen bg-gray-100 px-10 pt-10 pb-20">
-            <div className="max-w-4xl mx-auto text-left">
-                <h2 className="text-center mb-8">
+        <section id="about" className="bg-gray-100 px-6 py-20 sm:px-10 lg:py-28">
+            <div className="mx-auto max-w-5xl text-left">
+                <p className="mb-4 text-center text-sm font-semibold uppercase tracking-widest">
+                    A little context
+                </p>
+
+                <h2 className="mb-12 text-center text-3xl font-semibold">
                     About Me
                 </h2>
 
-                {/*How I got into programming*/}
-                <div className="mb-8">
-                    <h2 className="text-center mb-3">
-                        My Background
-                    </h2>
+                <div className="grid gap-6 md:grid-cols-2">
+                    <article className="rounded-2xl border border-gray-300 bg-white p-6 shadow-sm">
+                        <h3 className="mb-4 text-2xl font-semibold">
+                            My Background
+                        </h3>
 
-                    <p className="text-lg">...</p>
-                </div>
+                        <p className="text-lg leading-relaxed">...</p>
+                    </article>
 
-                {/*What I enjoy working on*/}
-                <div className="mb-8">
-                    <h3 className="text-2xl text-center font-semibold mb-3">
-                        What I Enjoy
-                    </h3>
+                    <article className="rounded-2xl border border-gray-300 bg-white p-6 shadow-sm">
+                        <h3 className="mb-4 text-2xl font-semibold">
+                            Currently
+                        </h3>
 
-                    <p className="text-lg leading-relaxed">
-                        <p className="text-lg">I enjoy building things, solving problems, and learning how things work. One of my favorite parts of software development is taking an idea that starts as a concept and turning it into something real that people can interact with.</p>
-                        <br />
-                        <p className="text-lg">I'm also someone who enjoys continuously learning. Whether I'm exploring a new programming language, framework, or technology, I like understanding not just how something works, but why it works. This is one of the things that originally drew me to computer science and continues to keep me interested in the field.</p>
-                        <br />
-                        <p className="text-lg">Outside of technology, I enjoy staying active, learning spanish, exploring new places and restaurants, and spending time with the people close to me. I like having a balance between working on things that challenge me intellectually and activities that let me step away from a computer.</p>
+                        <ul className="list-disc space-y-3 pl-5 text-lg leading-relaxed">
+                            <li>Deepening my React and TypeScript skills</li>
+                            <li>Learning more about CI/CD pipelines and automated deployments</li>
+                            <li>Exploring AI-powered features and AI-assisted development tools</li>
+                        </ul>
+                    </article>
 
-                    </p>
-                </div>
+                    <article className="md:col-span-2 rounded-2xl border border-gray-300 bg-white p-6 shadow-sm">
+                        <h3 className="mb-4 text-2xl font-semibold">
+                            What I Enjoy
+                        </h3>
 
-                {/*Currently Learning*/}
-                <div className="mb-8">
-                    <h3 className="text-2xl text-center font-semibold mb-3">
-                        Currently
-                    </h3>
+                        <p className="text-lg leading-relaxed">
+                            I enjoy building things, solving problems, and learning how things work. One of my favorite parts of software development is taking an idea that starts as a concept and turning it into something real that people can interact with. I'm also someone who enjoys continuously learning. Whether I'm exploring a new programming language, framework, or technology, I like understanding not just how something works, but why it works. Outside of technology, I enjoy staying active, learning Spanish, exploring new places and restaurants, and spending time with the people close to me.
+                        </p>
+                    </article>
 
-                    <ul className="list-disc list-inside text-lg space-y-2">
-                        <li>Deepening my React and TypeScript skills</li>
-                        <li>Learning more about CI/CD pipelines and automated deployments</li>
-                        <li>Exploring AI-powered features and AI-assisted development tools</li>
-                    </ul>
-                </div>
+                    <article className="md:col-span-2 rounded-2xl border border-gray-300 bg-white p-6 shadow-sm">
+                        <h3 className="mb-4 text-2xl font-semibold">
+                            Where I Am Going
+                        </h3>
 
-                {/*Career Direction*/}
-                <div className="mb-8">
-                    <h3 className="text-2xl text-center font-semibold mb-3">
-                        Where I am going
-                    </h3>
-
-                    <p className="text-lg leading-relaxed">
-                        [Fill in details...]
-                    </p>
+                        <p className="text-lg leading-relaxed">
+                            [Fill in details...]
+                        </p>
+                    </article>
                 </div>
             </div>
         </section>
