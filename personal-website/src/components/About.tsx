@@ -16,7 +16,21 @@ function About() {
                             My Background
                         </h3>
 
-                        <p className="text-lg leading-relaxed">...</p>
+                        <p className="text-lg leading-relaxed">
+                            My path into software development started with my interest in mathematics. I have always enjoyed solving difficult problems, finding patterns, and understanding why something works rather than simply knowing that it works. One of the things I enjoy most about mathematics is being able to prove that a solution is correct. I found that same way of thinking in computer science, where problems can be broken down logically and solutions can be tested and refined.
+                        </p>
+                        <br />
+                        <p className="text-lg leading-relaxed">
+                            I began to see the connection between mathematics and computer science more clearly while taking a data science course. We used probability and statistics to analyze COVID-19 data, learning R and using simulations to explore infection rates and visualize trends. I enjoyed taking mathematical ideas and using programming to turn them into something tangible.
+                        </p>
+                        <br />
+                        <p className="text-lg leading-relaxed">
+                            That experience led me to pursue computer science and eventually a career in software development. What continues to draw me to software is the combination of problem solving, creativity, and constant learning. I enjoy taking an idea or problem, developing a solution, and putting my own perspective into what I build. There is something especially rewarding about creating a solution that didn't exist before or finding a better way to improve something that already does.
+                        </p>
+                        <br />
+                        <p className="text-lg leading-relaxed">
+                            Today, I enjoy working across different areas of development. I'm particularly interested in web development, cloud technologies, automation, and AI, and I enjoy learning new technologies and figuring out how they can work together to build better applications. Ultimately, I want to continue growing as a developer while building software that is useful, creative, and capable of making an impact at scale.
+                        </p>
                     </article>
 
                     <article className="rounded-2xl border border-gray-300 bg-white p-6 shadow-sm">
