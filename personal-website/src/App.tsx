@@ -1,18 +1,32 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
-import About from "./components/About";
-import Skills from "./components/Skills";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import About from "./components/About";
+import Skills from "./components/Skills";
+
+function AppLayout() {
+  return (
+    <div className="flex min-h-screen flex-col">
+      <Navbar />
+      <main className="flex-1">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/skills" element={<Skills />} />
+        </Routes>
+      </main>
+      <Footer />
+    </div>
+  );
+}
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Home />
-      <About />
-      <Skills />
-      <Footer />
-    </>
+    <BrowserRouter>
+      <AppLayout />
+    </BrowserRouter>
   );
 }
+
 export default App;
