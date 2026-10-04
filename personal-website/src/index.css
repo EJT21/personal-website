@@ -3,24 +3,34 @@
 @layer base {
   html {
     font-family: Inter, system-ui, sans-serif;
+    scroll-behavior: smooth;
   }
 
   body {
     margin: 0;
     min-width: 320px;
     min-height: 100vh;
+    background: #f8fafc;
+    color: #0f172a;
+  }
+
+  a {
+    text-decoration: none;
   }
 
   #root {
-    width: 1126px;
+    width: 100%;
     max-width: 100%;
     margin: 0 auto;
-    border-inline: 2px solid #e5e7eb;
     box-sizing: border-box;
     min-height: 100vh;
 
     h1 {
-      font-size: 48px
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      line-height: 1.05;
+      letter-spacing: -0.05em;
+      color: #0f172a;
+      font-weight: 800;
     }
 
     h2 {
@@ -33,6 +43,7 @@
 
     p {
       font-size: 16px;
+      color: #334155;
     }
   }
 }
