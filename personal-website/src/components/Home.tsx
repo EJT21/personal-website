@@ -4,7 +4,7 @@ import emailIcon from "../assets/email.svg";
 
 function Home() {
     return (
-        <section className="relative overflow-hidden bg-gray-100 px-6 py-20 sm:px-10 lg:py-28">
+        <section className="relative overflow-hidden bg-gray-100 px-6 py-8 sm:px-10 sm:py-10 lg:py-12">
             <div className="relative mx-auto grid w-full max-w-5xl gap-12 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
                 <div>
                     <p className="mb-4 text-sm font-semibold uppercase tracking-widest">

@@ -9,7 +9,7 @@ const skills = {
 
 function Skills() {
     return (
-        <section id="skills" className="bg-gray-100 px-6 py-24">
+        <section id="skills" className="bg-gray-100 px-6 py-8 sm:py-10 lg:py-12">
             <div className="mx-auto max-w-6xl">
                 <p className="mb-4 text-center text-sm font-semibold uppercase tracking-widest">
                     Tools of the trade

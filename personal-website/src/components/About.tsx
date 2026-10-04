@@ -1,12 +1,12 @@
 function About() {
     return (
-        <section id="about" className="bg-gray-100 px-6 py-20 sm:px-10 lg:py-28">
+        <section id="about" className="bg-gray-100 px-6 py-8 sm:px-10 sm:py-10 lg:py-12">
             <div className="mx-auto max-w-5xl text-left">
                 <p className="mb-4 text-center text-sm font-semibold uppercase tracking-widest">
                     A little context
                 </p>
 
-                <h2 className="mb-12 text-center text-3xl font-semibold">
+                <h2 className="mb-8 text-center text-3xl font-semibold">
                     About Me
                 </h2>
 

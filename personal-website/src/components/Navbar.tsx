@@ -21,6 +21,12 @@ function Navbar() {
                     >
                         Skills
                     </NavLink>
+                    <NavLink
+                        to="/contact"
+                        className="rounded-md px-3 py-2 text-sm text-slate-600 transition hover:bg-slate-200 hover:text-slate-900"
+                    >
+                        Contact
+                    </NavLink>
                 </div>
 
                 <a
