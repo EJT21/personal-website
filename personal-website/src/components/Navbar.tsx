@@ -8,22 +8,22 @@ function Navbar() {
                     Home
                 </NavLink>
 
-                <div className="hidden items-center gap-1 md:flex">
+                <div className="order-3 flex w-full flex-wrap items-center justify-center gap-0.5 md:order-none md:w-auto md:gap-1">
                     <NavLink
-                        to="/about"
-                        className="rounded-md px-3 py-2 text-sm text-slate-600 transition hover:bg-slate-200 hover:text-slate-900"
+                        to="/experience"
+                        className="rounded-md px-2 py-2 text-xs text-slate-600 transition hover:bg-slate-200 hover:text-slate-900 sm:px-3 sm:text-sm"
                     >
-                        About
+                        Experience
                     </NavLink>
                     <NavLink
-                        to="/skills"
-                        className="rounded-md px-3 py-2 text-sm text-slate-600 transition hover:bg-slate-200 hover:text-slate-900"
+                        to="/projects"
+                        className="rounded-md px-2 py-2 text-xs text-slate-600 transition hover:bg-slate-200 hover:text-slate-900 sm:px-3 sm:text-sm"
                     >
-                        Skills
+                        Projects
                     </NavLink>
                     <NavLink
                         to="/contact"
-                        className="rounded-md px-3 py-2 text-sm text-slate-600 transition hover:bg-slate-200 hover:text-slate-900"
+                        className="rounded-md px-2 py-2 text-xs text-slate-600 transition hover:bg-slate-200 hover:text-slate-900 sm:px-3 sm:text-sm"
                     >
                         Contact
                     </NavLink>
@@ -31,7 +31,7 @@ function Navbar() {
 
                 <a
                     href="/resume.pdf"
-                    className="rounded-md border border-slate-300 bg-slate-900 px-3 py-2 text-sm font-medium text-white transition hover:bg-slate-700"
+                    className="order-2 rounded-md border border-slate-300 bg-slate-900 px-3 py-2 text-sm font-medium text-white transition hover:bg-slate-700 md:order-none"
                 >
                     Resume
                 </a>
