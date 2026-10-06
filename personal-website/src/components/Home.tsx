@@ -1,6 +1,3 @@
-import githubIcon from "../assets/github.svg";
-import resumeIcon from "../assets/resume.svg";
-import emailIcon from "../assets/email.svg";
 import { Link } from "react-router-dom";
 import Contact from "./Contact";
 import Skills from "./Skills";
@@ -22,40 +19,18 @@ function Home() {
                             I turn tricky business problems into simple, reliable web applications.
                             I care about clean, maintainable code that makes people’s work a little easier.
                         </p>
-
-                        <div className="mt-8 flex flex-wrap gap-3">
-                            <a className="social-link rounded-xl border border-gray-300 bg-white px-3 py-2 shadow-sm transition hover:border-gray-500 hover:shadow" href="https://github.com/EJT21">
-                                <span className="social-icon"><img src={githubIcon} alt="" /></span>
-                                GitHub
-                            </a>
-                            <a className="social-link rounded-xl border border-gray-300 bg-white px-3 py-2 shadow-sm transition hover:border-gray-500 hover:shadow" href="https://www.linkedin.com/in/erickthompson21/">
-                                <span className="social-icon"><img src="https://www.linkedin.com/favicon.ico" alt="" /></span>
-                                LinkedIn
-                            </a>
-                            <a className="social-link rounded-xl border border-gray-300 bg-white px-3 py-2 shadow-sm transition hover:border-gray-500 hover:shadow" href="/resume.pdf">
-                                <span className="social-icon"><img src={resumeIcon} alt="" /></span>
-                                Resume
-                            </a>
-                            <a className="social-link rounded-xl border border-gray-300 bg-white px-3 py-2 shadow-sm transition hover:border-gray-500 hover:shadow" href="mailto:etommy21@gmail.com">
-                                <span className="social-icon"><img src={emailIcon} alt="" /></span>
-                                Email
-                            </a>
-                        </div>
                     </div>
 
-                    <aside className="rounded-2xl border border-gray-300 bg-white p-6 text-left shadow-sm">
-                        <p className="mb-5 text-sm font-semibold uppercase tracking-widest">
-                            Core stack
-                        </p>
-
-                        <div className="flex flex-wrap gap-3">
-                            {[".NET", "C#", "ASP.NET MVC", "Entity Framework Core", "React", "TypeScript"].map((technology) => (
-                                <span key={technology} className="rounded-lg border border-gray-200 bg-gray-50 px-3 py-2 text-sm font-medium">
-                                    {technology}
-                                </span>
-                            ))}
+                    <div
+                        role="img"
+                        aria-label="Placeholder for a photo of Erick"
+                        className="flex aspect-[4/5] w-full items-center justify-center rounded-2xl border border-gray-300 bg-white p-6 text-center shadow-sm"
+                    >
+                        <div>
+                            <p className="text-sm font-semibold uppercase tracking-widest">Photo</p>
+                            <p className="mt-2 text-gray-500">[Add your photo here]</p>
                         </div>
-                    </aside>
+                    </div>
                 </div>
             </section>
 
