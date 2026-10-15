@@ -3,6 +3,7 @@ import Contact from "./Contact";
 import Skills from "./Skills";
 import { currentExperience } from "../data/experience";
 import erickPhoto from "../assets/ErickPicture.jpeg";
+import AboutMe from "./AboutMe";
 
 function Home() {
     return (
@@ -17,8 +18,7 @@ function Home() {
                         <h1 className="mb-5 text-left">Erick Thompson</h1>
 
                         <p className="max-w-2xl text-left text-lg leading-relaxed">
-                            I turn tricky business problems into simple, reliable web applications.
-                            I care about clean, maintainable code that makes people’s work a little easier.
+                            I build reliable web applications and software tools that simplify complex work, with a focus on practical, maintainable solutions.
                         </p>
                     </div>
 
@@ -35,11 +35,8 @@ function Home() {
                     <p className="mb-3 text-center text-sm font-semibold uppercase tracking-widest">
                         A little context
                     </p>
-                    <h2 className="mb-6 text-center text-3xl font-semibold">About Me</h2>
                     <article className="rounded-2xl border border-gray-300 bg-white p-6 shadow-sm">
-                        <p className="text-lg leading-relaxed">
-                            My interest in mathematics and a data science course analyzing COVID-19 data led me to computer science and software development. I enjoy turning problems into useful applications and continue to explore web development, cloud technologies, automation, and AI.
-                        </p>
+                        <AboutMe />
                     </article>
                 </div>
             </section>
