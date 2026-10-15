@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Contact from "./Contact";
 import Skills from "./Skills";
 import { currentExperience } from "../data/experience";
+import erickPhoto from "../assets/ErickPicture.jpeg";
 
 function Home() {
     return (
@@ -21,16 +22,11 @@ function Home() {
                         </p>
                     </div>
 
-                    <div
-                        role="img"
-                        aria-label="Placeholder for a photo of Erick"
-                        className="flex aspect-[4/5] w-full items-center justify-center rounded-2xl border border-gray-300 bg-white p-6 text-center shadow-sm"
-                    >
-                        <div>
-                            <p className="text-sm font-semibold uppercase tracking-widest">Photo</p>
-                            <p className="mt-2 text-gray-500">[Add your photo here]</p>
-                        </div>
-                    </div>
+                    <img
+                        src={erickPhoto}
+                        alt="Erick Thompson"
+                        className="aspect-[4/5] w-full rounded-2xl border border-gray-300 object-cover shadow-sm"
+                    />
                 </div>
             </section>
 

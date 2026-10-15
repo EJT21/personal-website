@@ -1,8 +1,8 @@
 export const currentExperience = {
-    title: "[Job Title]",
-    company: "[Company]",
-    dates: "[Dates]",
+    title: "Senior Software Developer",
+    company: "Hudson Valley Credit Union",
+    dates: "April 2023 - Present",
     description: "[Description]",
     accomplishments: ["[...]", "[...]", "[...]"],
-    technologies: "[...]",
+    technologies: ".NET, C#, Javascript, Python, HTML, CSS, Azure",
 };
