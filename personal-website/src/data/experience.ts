@@ -1,8 +1,6 @@
 export const currentExperience = {
-    title: "Senior Software Developer",
+    title: "Software Developer II",
     company: "Hudson Valley Credit Union",
-    dates: "April 2023 - Present",
-    description: "[Description]",
-    accomplishments: ["[...]", "[...]", "[...]"],
+    dates: "October 2026 - Present",
     technologies: ".NET, C#, Javascript, Python, HTML, CSS, Azure",
 };

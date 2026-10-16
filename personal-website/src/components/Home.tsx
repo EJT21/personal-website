@@ -53,11 +53,7 @@ function Home() {
                             <p className="text-sm font-medium text-gray-500">{currentExperience.dates}</p>
                         </div>
                         <p className="mb-4 font-medium">{currentExperience.company}</p>
-                        <p className="mb-5 leading-relaxed">{currentExperience.description}</p>
                         <h4 className="mb-2 font-semibold">Accomplishments</h4>
-                        <ul className="mb-5 list-disc space-y-1 pl-5 leading-relaxed">
-                            {currentExperience.accomplishments.map((item, index) => <li key={`${index}-${item}`}>{item}</li>)}
-                        </ul>
                         <p className="mb-6"><span className="font-semibold">Technologies:</span> {currentExperience.technologies}</p>
                         <Link to="/experience" className="inline-flex rounded-xl border border-gray-300 bg-white px-4 py-2 font-medium shadow-sm transition hover:border-gray-500 hover:shadow">
                             View Full Experience →
